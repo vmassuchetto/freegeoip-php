@@ -1,6 +1,6 @@
 <?php
 
-define( 'DEBUG', true );
+define( 'DEBUG', false );
 
 if ( defined( 'DEBUG' ) && DEBUG ) {
     error_reporting( E_ALL );
